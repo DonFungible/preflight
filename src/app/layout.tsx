@@ -55,11 +55,11 @@ export default function RootLayout({
               <Navbar />
               <div className="flex-grow">{children}</div>
             </RainbowKitProvider>
+            <Footer />
           </WagmiConfig>
         ) : (
           <></>
         )}
-        <Footer />
       </body>
     </html>
   );
