@@ -8,11 +8,13 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center bg-gray-800 text-white px-6 py-4">
-      <FaAmazon />
+      <div className="w-1/3">
+        <FaAmazon />
+      </div>
 
-      <h1 className="text-2xl font-bold">{title}</h1>
+      <h1 className="text-2xl font-bold w-1/3 text-center">{title}</h1>
 
-      <div className="flex flex-row space-x-4">
+      <div className="flex flex-row space-x-4 w-1/3 justify-end">
         <a href="#" className="text-lg">
           Home
         </a>
